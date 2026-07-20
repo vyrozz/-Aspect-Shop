@@ -23,7 +23,7 @@ export const botConfig = {
     // 5 = Competing
     activities: [
       {
-        name: "Streaming", // required by Discord API, not shown in the client
+        name: "/aspectshop", // required by Discord API, not shown in the client
         state: ".gg/aspectshop",     // this is what people actually see
         type: 1,               // Custom
       },
