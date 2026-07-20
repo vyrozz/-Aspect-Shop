@@ -25,7 +25,7 @@ export const botConfig = {
       {
         name: "/aspectshop", // required by Discord API, not shown in the client
         state: "",     // this is what people actually see
-        type: 1,               // Custom
+        type: 2,               // Custom
       },
     ],
   },
