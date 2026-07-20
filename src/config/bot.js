@@ -252,10 +252,10 @@ export const botConfig = {
     defaultPriority: "none",
 
     // Category ID where closed tickets are archived.
-    archiveCategory: null,
+    archiveCategory: 1528840798072737955,
 
     // Channel ID where ticket logs are sent.
-    logChannel: null,
+    logChannel: 1528840362150596790,
   },
 
   // =========================
@@ -372,13 +372,13 @@ export const botConfig = {
     // Welcome template posted when a user joins.
     // Placeholders: {user}, {server}, {memberCount}
     defaultWelcomeMessage:
-      "Welcome {user} to {server}! We now have {memberCount} members!",
+      "Bienvenue {user} sur {server}! Maintenant nous sommes {memberCount} !",
     // Goodbye template posted when a user leaves.
     // Placeholders: {user}, {memberCount}
     defaultGoodbyeMessage:
       "{user} has left the server. We now have {memberCount} members.",
     // Channel ID for welcome messages.
-    defaultWelcomeChannel: null,
+    defaultWelcomeChannel: 1528842939869167837,
     // Channel ID for goodbye messages.
     defaultGoodbyeChannel: null,
   },
@@ -411,8 +411,8 @@ export const botConfig = {
     types: {
       // Built-in counter types and how each count is calculated.
       members: {
-        name: "👥 Members",
-        description: "Total members in the server",
+        name: "👥 Membres",
+        description: "Nombre de personnes dans le serveur.",
         getCount: (guild) => guild.memberCount.toString(),
       },
       bots: {
