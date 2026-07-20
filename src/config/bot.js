@@ -23,8 +23,8 @@ export const botConfig = {
     // 5 = Competing
     activities: [
       {
-        name: "/aspectshop", // required by Discord API, not shown in the client
-        state: "‎ ",     // this is what people actually see
+        name: "En direct", // required by Discord API, not shown in the client
+        state: "/aspectshop‎",     // this is what people actually see
         type: 1,               // Custom
       },
     ],
