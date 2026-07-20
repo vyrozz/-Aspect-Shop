@@ -24,8 +24,8 @@ export const botConfig = {
     activities: [
       {
         name: "/aspectshop", // required by Discord API, not shown in the client
-        state: "",     // this is what people actually see
-        type: 2,               // Custom
+        state: "Aspect Shop ONTOP!",     // this is what people actually see
+        type: 1,               // Custom
       },
     ],
   },
